@@ -1,0 +1,114 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .intro, .services, .projets, .confiance, .contact-cta {
+    max-width: 810px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  
+  .services ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .services li::before {
+    content: "✅ ";
+    margin-right: 8px;
+  }
+  
+  .galerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .galerie img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .galerie img:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-contact {
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #1abc9c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-contact:hover {
+    background-color: #16a085;
+  }
+   .navbar {
+  background-color: #111;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* effet 3D */
+  padding: 15px 0;
+  border-radius: 15px; /* bords arrondis */
+  max-width: 800px; /* même largeur que les autres sections */
+  margin: 40px auto; /* centrée + espace autour */
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* pour qu’elle passe bien sur mobile */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #1abc9c;
+}
+  .contact-cta {
+    text-align: center;
+  }
+  
+  .btn-contact {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #1abc9c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    text-align: center;
+  }
